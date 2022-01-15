@@ -15,19 +15,19 @@
     - To Filter Product by ID, simply send a GET request to http://localhost:4000/api/products/<ID Number>. For eg, if you want to view product with ID = 1, navigate to http://localhost:4000/api/products/1 .
 
     - To Insert Product, send a POST request to http://localhost:4000/api/products with the item details in the Body in a JSON format. It will create a new product with a uuid.
-    Example:
-    {
-    "name" : New Product
-    "description" : "This is a new product",
-    "price": 100
-    }
+        Example:
+        {
+        "name" : New Product
+        "description" : "This is a new product",
+        "price": 100
+        }
 
     - To Edit a Product, send a PUT request to http://localhost:4000/api/products/<id of product you want to edit> with new items details in the Body in a JSON format.
-    Example: 
-    {
-    "name" : "Updated title",
-    "description" : "This is an updated product",
-    "price": 100
-    }
+        Example: 
+        {
+        "name" : "Updated title",
+        "description" : "This is an updated product",
+        "price": 100
+        }
 
     - To Delete a Product, send a DELETE request to http://localhost:4000/api/products/<id of product you want to delete>.
