@@ -15,8 +15,8 @@
     - To Filter Product by ID, simply send a GET request to http://localhost:4000/api/products/<ID Number>. 
         For eg, if you want to view product with ID = 1, navigate to http://localhost:4000/api/products/1 .
 
-    - To Insert Product, send a POST request to http://localhost:4000/api/products with the item details in the Body in a JSON format. 
-        It will create a new product with a uuid.
+    - To Insert Product, send a POST request to http://localhost:4000/api/products with the item details in 
+        the Body in a JSON format. It will create a new product with a new uuid.
         Example:
         {
         "name" : New Product
