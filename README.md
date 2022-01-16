@@ -1,5 +1,7 @@
 # Shopify Backend Application Summer 2022
 
+This application is made using Vanilla Node.js using no frameworks.
+
 # Usage
     1. Install dependencies using:
         npm install
